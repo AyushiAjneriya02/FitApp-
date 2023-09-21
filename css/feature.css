@@ -1,0 +1,88 @@
+.feature{
+    height: 130vh;
+    width: 100vw; 
+}
+.feature .h{
+    height: 10em;
+    width: 100%;
+    padding: 2em;
+   text-align: center;
+}
+.feature .h h3{
+    color: gray;
+    font-size: 1.2em;
+    padding: 0;
+}
+.feature .h h1{
+    font-weight: bolder;
+}
+.feature .part, .part1{
+    display: flex;
+ justify-content: center;
+}
+.feature .part .partp{
+    background-color: azure;
+    width: 23%;
+    height: 250px;
+    padding: 30px;
+    margin-left: 1.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px azure;
+}
+.feature .part .partp:hover{
+    margin-top: -7px;
+    transition: .2s linear;
+}
+.feature .part .partp i{
+    height: 50px;
+    width: 50px;
+   background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 50%;
+    margin: 5px;
+}
+.feature .part .partp h5{
+font-size: 1.2em;
+padding: 10px 0px;
+
+}
+.feature .part .partp p{
+font-size: .8em;
+color: gray;
+}
+
+.feature .part1 .partp1{
+    background-color: azure;
+    width: 23%;
+    height: 250px;
+    padding: 30px;
+    margin-left: 1.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px azure;
+    margin-top: 1.5em;
+}
+.feature .part1 .partp1:hover{
+    margin-top: 20px;
+    transition: .2s linear;
+}
+.feature .part1 .partp1 i{
+    height: 50px;
+    width: 50px;
+   background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 50%;
+    margin: 5px;
+}
+.feature .part1 .partp1 h5{
+font-size: 1.2em;
+padding: 10px 0px;
+
+}
+.feature .part1 .partp1 p{
+font-size: .8em;
+color: gray;
+}

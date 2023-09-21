@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+   text-align: center;
+   color:white;
+ 
+}
+.footer .ft{
+width: 60%;
+font-size: .6em;
+margin-top: 1.5em;
+}
+.footer .ft p{
+
+}
+.footer .ft p a{
+    color: rgb(199, 204, 208);
+}
+.footer .ft2{
+width: 30%;
+margin-top: 1em;
+}
+.footer .ft2 a{
+padding: 3px 15px;
+border-right: 1px solid rgb(199, 204, 208);
+text-decoration: none;
+color:white;
+
+}

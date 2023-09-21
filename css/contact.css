@@ -1,0 +1,84 @@
+.contact{
+    height: 130vh;
+    width: 100vw;
+}
+.contact .h{
+    height: 10em;
+    width: 100%;
+    padding: 3em;
+   text-align: center;
+}
+.contact .h h3{
+   background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+   color: transparent;
+   background-repeat: no-repeat;
+   -webkit-background-clip: text;
+    font-size: 1.2em;
+    padding: 0;
+}
+.contact .h h1{
+    font-weight: bolder;
+}
+.contact .para {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.contact .para p a{
+    text-decoration: none;
+}
+.contact .form{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .form form{
+    width: 900px;
+    display: inline-block;
+    margin-left: 2em;
+}
+.contact .form form input, textarea{
+  border: 1px solid gray;
+  font-size: .9em
+  ;
+}
+
+.contact .form form input{
+    margin: 5px;
+    padding: 13px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.contact .form form input:nth-child(1){
+  width: 420px;
+
+}
+.contact .form form input:nth-child(2){
+    width: 420px;
+}
+.contact .form form input:nth-child(3){
+  display: block;
+  width: 854px;
+}
+.contact .form form textarea{
+ margin: 5px 5px 0px 5px;
+        padding: 13px;
+        border-radius: 10px;
+}
+.contact .form form .btn{
+width: 100%;
+border: none;
+}
+.contact .form form .btn button{
+    padding: 15px 50px;
+    background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    background-position: center right;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+

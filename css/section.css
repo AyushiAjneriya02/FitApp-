@@ -1,0 +1,59 @@
+.section {
+    height: 90vh;
+    width: 100vw;
+    margin-top: 2em;
+}
+.section .h{
+    height: 11em;
+    width: 100%;
+    padding: 3em;
+   text-align: center;
+}
+.section .h h3{
+    color: gray;
+    font-size: 1.2em;
+    padding: 0;
+}
+.section .h h1{
+    font-weight: bolder;
+}
+.section .sp1{
+    height: 50vh;
+    width: 100%;
+    padding: 2em;
+}
+.section .sp1 .spart{
+    display: flex;
+    justify-content: center;
+}
+.section .sp1 .spart .spartp{
+    background-color: azure;
+    width: 25%;
+    height: 250px;
+    padding: 30px;
+    margin-left: 1.5em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px azure;
+    text-align: center;
+   
+}
+
+.section .sp1 .spart .spartp i{
+    height: 110px;
+    width: 110px;
+   background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    color: white;
+    text-align: center;
+    padding: 25px ;
+    border-radius: 70%;
+    margin-top: -2.5em;
+}
+.section .sp1 .spart .spartp h5{
+font-size: 1.2em;
+padding: 10px 0px;
+
+}
+.section .sp1 .spart .spartp p{
+font-size: .8em;
+color: gray;
+}

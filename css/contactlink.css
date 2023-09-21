@@ -1,0 +1,61 @@
+.contactlink{
+    height: 70vh;
+    width: 100vw;
+ background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:  top center;
+ color: #fff;
+}
+.contactlink .wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.contactlink .wrapper .parts{
+    width: 20%;
+    padding: .5em;
+    font-size: .9em;
+    margin-top: 5em;
+}
+.contactlink .wrapper .parts h3{
+ padding: 20px 5px ;
+}
+.contactlink .wrapper .parts p i {
+padding: 0px 7px;
+}
+.contactlink .wrapper .parts ul{
+
+}
+.contactlink .wrapper .parts ul li{
+  list-style-type: circle;
+  padding: 5px 0px;
+  font-size: .9em;
+
+}
+.contactlink .wrapper .parts ul li:hover{
+    letter-spacing: 1px;
+    transition: .5s ease-in-out;
+}
+.contactlink .wrapper .parts input{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: .9em;
+  
+}
+.contactlink .wrapper .parts  .ic{
+    margin-left: -10px;
+}
+.contactlink .wrapper .parts  .ic i{
+    padding: 8px;
+    font-size: .9em;
+    color: #fff;
+    background-image: url(../img/svg_waves-3c1f0a785319462f6dce04d227eaf664.jpg);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.contactlink .wrapper .parts p{
+    font-size: .9em;
+    padding: 4px 0px;
+}
